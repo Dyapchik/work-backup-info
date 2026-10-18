@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Privacy policy — Work Backup</title>
+<link rel="stylesheet" href="styles.css">
+<main>
+  <p class="label">Work Backup · Updated 18 October 2026</p>
+  <h1>Privacy policy</h1>
+  <p>Work Backup is a private desktop backup setup for its Google account owner. It runs on the owner's computer using rclone. This policy describes that setup; Google Drive and the website hosting provider also apply their own policies.</p>
+  <h2>Google Drive access and purpose</h2>
+  <p>The setup requests the Google Drive permission to view and manage Drive files. That permission is broader than a single folder; the backup job is configured to operate in one destination folder.</p>
+  <p>The job reads file and folder metadata, including names, identifiers, modification times, sizes and available checksums. It uploads selected Microsoft Word documents and maintains previous versions of replaced files. Google Drive API access is used for backup, integrity checks and related recovery operations.</p>
+  <h2>Storage, sharing and retention</h2>
+  <p>Backup files and retained previous versions are stored in the owner's Google Drive. Configuration, authentication tokens and operational logs remain on the owner's computer. Local authentication files are restricted to the owner's operating-system account; file permissions are not encryption.</p>
+  <p>The backup automation does not sell Google user data, send it to advertising services, or use it to train AI models. It sends backup data to Google Drive and communicates with Google's authorization services. This informational website does not receive backup files or credentials.</p>
+  <p>There is no automatic expiry for the retained backup history in this setup. The account owner controls retention and can remove backup files and history directly. Unrelated existing cloud files are preserved by the configured copy job.</p>
+  <h2>Owner controls</h2>
+  <p>The account owner can stop the backup locally and revoke Work Backup access in the Google Account's third-party connections settings. Revoking access stops future authorized operations; it does not remove existing backup files.</p>
+  <h2>This website</h2>
+  <p>These static pages contain no analytics, advertising, external fonts, login forms or tracking scripts. The hosting provider may record ordinary requests, including IP addresses, under its own privacy policy.</p>
+  <nav aria-label="Information"><a href="index.html">Work Backup</a><a href="terms.html">Terms of use</a></nav>
+</main>
+</html>
